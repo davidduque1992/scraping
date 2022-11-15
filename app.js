@@ -36,8 +36,8 @@ const init = async () => {
       "https://www.linkedin.com/login/es?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"
     );
 
-    await page.type("#username", "davidduque1992@gmail.com");
-    await page.type("#password", "06/11/2011");
+    await page.type("#username", "<tu usuario>");
+    await page.type("#password", "<tu passs>");
     await page.click('[data-litms-control-urn="login-submit"]');
     //   await page.waitForNavigation();
 
